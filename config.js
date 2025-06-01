@@ -1,14 +1,14 @@
 module.exports = {
-    TOKENS: [""],
-    ownerID: [""], //write your discord user id. example: ["id"] or ["id1","id2"]
-    botInvite: "", //write your discord bot invite.
+    TOKENS: process.env.TOKENS,
+    ownerID: ["577102756322476033"], //write your discord user id. example: ["id"] or ["id1","id2"]
+    botInvite: process.env.botInvite, //write your discord bot invite.
     supportServer: "", //write your discord bot support server invite.
-    mongodbURL: "", //write your mongodb url.
-    status: '❤️ codeshare.me',
+    mongodbURL: process.env.mongodbURL, //write your mongodb url.
+    status: 'Nfsi',
     commandsDir: './commands', //Please don't touch
     language: "en", //ar, de, en, es, fr, id, it, ja, nl, pt, ru, tr, zh_TW
     embedColor: "ffa954", //hex color code
-    errorLog: "", //write your discord error log channel id.
+    errorLog: "1378632529342496949", //write your discord error log channel id.
 
 
     playlistSettings: {
@@ -40,7 +40,7 @@ module.exports = {
 
     sponsor: {
         status: true, //true or false
-        url: "https://codeshare.me", //write your discord sponsor url.
+        url: "https://guns.lol/t30", //write your discord sponsor url.
     },
 
 
